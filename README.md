@@ -1,13 +1,6 @@
 # Title
 
-*description*
+*Work in progress of personal portfolio website*
 
-[deployed url](http://url-if-deployed-here)
+[deployed url](https://lab1-landingpage-mayafcolefinal.onrender.com/)
 
-## What Worked Well
-
-## What Didn't
-
-## Extra Credit
-
-## Screenshots
