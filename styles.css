@@ -1,0 +1,709 @@
+ .button-container {
+  position: relative;
+  display: inline-block;
+  z-index: 9999;
+}
+
+.fit-picture {
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+.fillerContainer {
+  height: 100px;
+  color: #0B4E09;
+  width: 100%;
+
+}
+
+.sade {
+  background-color: transparent;
+
+}
+
+.button-text h1, 
+.button-text h2, 
+.button-text p {
+  width: 100%; 
+  margin: 0px;
+  text-align: left; 
+}
+
+/* // star icon to the right top hand corner */
+
+.hover-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 9999;
+  color: #e6176a;
+  background-color: transparent;
+  font-size: 100px;
+  width: 100x;
+  height: 100px;
+}
+
+
+.hover-button i.fa {
+  visibility: visible !important;
+  width: 300px;
+}
+
+
+.dropdown-content {
+  display: none;
+  width:200px;
+  /* position: fixed; */
+  position: absolute;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  left: 1180px;
+}
+
+.dropdown-content a {
+  text-align: left;
+  display: block;
+  color: #0B4E09;
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  padding: 5px 10px;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffb7d7;
+  display: block;
+  margin: 0px;
+}
+
+.button-container:hover .dropdown-content {
+  display: block;
+}
+
+
+ .topImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ }
+
+.topImageContainer img {
+  width: 100%; 
+  max-height: 100%; 
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 60px;
+  left: 200px; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 20px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: helvetica, sans-serif;
+  z-index: 1;
+}
+
+
+.overlay h1{
+  font-size: 400px;
+  color: #FFFFFF; 
+  font-weight: bold;
+  margin-bottom: -100px; 
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: tahoma, sans-serif;
+  z-index: 9999;
+
+
+
+}
+
+/* resume, email, and about me buttons */
+
+
+.upperButtonsContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  
+
+}
+
+/* .upperButtons {
+  background-color: #FFEFF8;
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  border-color: #4C001F;
+  border-radius: 50px;
+  padding: 5px 20px; 
+} */
+
+/* .upperButtons:hover {
+  color: #ffffff; 
+  background-color: #4C001F;
+} */
+
+
+/* learn more button */
+
+.middleTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%; 
+}
+
+.CTA {
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+
+.CTAbutton:hover {
+  color: #ffffff; 
+  background-color: #4C001F;
+}
+
+
+  .CTAbutton {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #0B4E09;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  text-align: CENTER;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  color: white;
+  }
+
+
+ 
+
+  
+  .overlay h2 {
+    display: flex;
+    font-size: 90px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    color: #ffff;
+    flex-direction: row; 
+    justify-content: center;
+  }
+
+  .text {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+
+
+  .aboutMe {
+    float: left;
+    
+}
+
+
+
+.helloContainer {
+  position: relative; 
+  z-index: 10; 
+  background-color: transparent; 
+  padding: 10px 0; 
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: rgb(255, 255, 255);
+  height: 180px;
+  z-index: -1;
+  position: relative; 
+  width: 100%; 
+}
+
+.container2 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: rgb(255, 255, 255);
+  height: 180px;
+  z-index: -1;
+  position: relative; 
+  margin-top: -100px;
+  width: 100%; 
+  height: 400px;
+}
+
+
+
+.container h3 {
+  /* font-family:  helvetica, sans-serif; */
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  color: #042003; 
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+  padding-left: 20px;
+
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding-bottom: 110px; */
+  z-index:98;
+  background-color: white; 
+  width: 100%;
+  height: 700px;
+  padding: 10px;
+
+}
+
+
+/* .switch::after {
+  content: "Design is...";
+  font-size: 50px;
+  font-family:  helvetica, sans-serif;
+  color: #4C001F;
+
+
+}
+#toggle:checked ~ .switch::after {
+  font-size: 50px;
+  content: "Design is intelligence made visible.";
+  color: #4C001F;
+} */
+
+label {
+  background: #D48FAB;
+  padding: 10px 20px;
+  font-family:  helvetica, sans-serif;
+
+}
+
+.hidden {
+  position: absolute;
+  left: -100vw;
+}
+
+  .image-button {
+    width: 500px; 
+    height: 650px;
+    padding: 20px;
+    background-color: transparent; 
+    border-color: #0B4E09;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center; 
+    justify-content: start; 
+  }
+
+  .image-button-link, .image-button-link * {
+    text-decoration: none;
+    color: inherit; 
+}
+
+  
+
+
+  .image-button::before, .image-button2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    z-index: 0;
+    text-align: left;
+
+  }
+
+  
+  .button-icon, .image-button2 .button-icon {
+    z-index: 2; 
+    width: 250px; 
+    height: auto;
+  }
+
+.button-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 100%; 
+    text-align: left; 
+}
+
+.button-text h1 {
+    text-align: left; 
+    width: 100%; 
+}
+
+.button-content h1 {
+  text-align: left; 
+  width: 100%; 
+}
+
+.image-button h1 {
+  text-align: left; 
+  width: 100%; 
+
+}
+
+
+.image-button:hover,
+.image-button:active,
+.image-button2:hover,
+.image-button2:active {
+  z-index: 1;
+  background-color: #D48FAB;
+}
+
+
+.button:hover,
+.button:active {
+  /* z-index: 1; */
+  background-color: #D48FAB;
+}
+
+/* pho, aries, NY section */
+
+.paragraphs {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+  padding-bottom: 30px;
+
+}
+
+.paragraphs .para1,
+.paragraphs .para2,
+.paragraphs .para3 {
+  width: 80%; 
+  justify-content: center;
+
+}
+
+
+
+/* .paragraphs p,
+.paragraphs h1 {
+ 
+  width: 300px;
+  color: #4C001F;
+
+} */
+
+
+.button-group {
+  display: flex;
+  justify-content: center; 
+  gap: 40px; 
+  padding: 20px;
+  background-color: #6A9A23; 
+  height: 500px;
+}
+
+.button-pair {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  gap: 40px; 
+}
+
+.action-button {
+  background-color: #FF82AD; 
+  /* color: white; */
+  color: #AE004E;
+  font-size: 84px;
+  font-weight: 900;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-right: 30px;
+  padding: 20px 40px;
+  text-decoration: none; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: Helvetica, sans-serif;
+  width: 400px;
+  height: 200px;
+  box-shadow: 10px 2px 15px #AE004E;
+  transition: background-color 0.3s, transform 0.3s;
+  transform: rotate(-15deg);
+}
+
+.action-button1 {
+  background-color: #AE004E; 
+  /* color: white; */
+  color: #FF82AD;
+  font-size: 84px;
+  font-weight: 900;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-right: 30px;
+  padding: 20px 40px;
+  text-decoration: none; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: Helvetica, sans-serif;
+  width: 400px;
+  height: 200px;
+  box-shadow: 10px 2px 15px #AE004E;
+  transition: background-color 0.3s, transform 0.3s;
+  transform: rotate(10deg);
+}
+
+.action-button:hover {
+  background-color: #FF85B4; 
+}
+
+.action-button:nth-child(1) { 
+  transform: rotate(-10deg);
+}
+
+.action-button:nth-child(2) { 
+  transform: rotate(10deg);
+}
+
+.action-button:nth-child(1):hover {
+  transform: rotate(-7deg);
+}
+
+.action-button:nth-child(2):hover {
+  transform: rotate(7deg); 
+}
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;  
+  background-color: #AE004E; 
+  z-index: -10; 
+
+  }
+
+  /* // for the ux.ui project buttons */
+  h1 {
+    display: flex;
+    color:#0B4E09;
+    font-size: 50px;
+    justify-content: start;
+    align-content: start;
+    font-family: helvetica, sans-serif; 
+    font-weight: normal;
+
+  }
+  
+  h2 {
+    font-family: helvetica, sans-serif; 
+    font-size: 60px;
+    color: #0B4E09;
+
+  }
+
+  h3 {
+    font-family: helvetica, sans-serif; 
+    font-size: 60px;
+    color: BLACK;
+    z-index: 1;
+
+  }
+  
+  p {
+    font-family: helvetica, sans-serif; 
+    font-size: 20px;
+    color: #0B4E09;
+    font-style: normal;
+
+
+  }
+
+
+  /*background under ux.ui, art, and dice buttons also under my projects*/
+  
+  #scroll-container {
+    border: none;
+    overflow: visible;
+    width: 100%;
+    color:white;
+    white-space: nowrap; 
+    background-color: #AE004E;
+    font-family:  'Helvetica', sans-serif;
+    z-index: -1;
+  }
+
+
+.helloContainer2 {
+  position: relative; 
+  z-index: 10; 
+  background-color: transparent; 
+  padding: 10px 0; 
+}
+
+
+#scroll-container2 {
+  border: none;
+  overflow: hidden;
+  width: 100%;
+  color:white;
+  white-space: nowrap; 
+  background-color: #AE004E;
+  font-family:  'Helvetica', sans-serif;
+  z-index: 1;
+}
+
+
+
+#scroll-text2 {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);  
+  animation: my-animation 45s linear infinite; 
+}
+
+#scroll-text2 a {
+text-decoration: none;
+}
+
+
+
+
+
+@keyframes my-animation {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+   
+
+/* footer stuff */
+
+.footer {
+  /* margin-top: -4000PX; */
+  width: 1680px; 
+  height: 140px;
+  background-color: #042003;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+footerTextContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #042003;
+}
+
+.footerTextContainer a {
+  font-size: 40px;
+  color: white; 
+  text-decoration: none; 
+  font-family: helvetica, sans-serif;
+
+}
+
+
+.footerTextContainer p {
+  font-size: 14px;
+  color: black; 
+  text-decoration: none; 
+  font-family: helvetica, sans-serif;
+
+}
+
+/* 
+
+
+/* //source: https://blog.hubspot.com/website/scrolling-text-css#how-to-create-scrolling-text-css */
+
+/* // new additions  */
+
+#scroll-text {
+  /* animation properties */
+  font-size: 60px;
+  font-family: helvetica, sans-serif;
+  font-weight: lighter;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  z-index: -1;
+  -moz-animation: my-animation 30s linear infinite;
+  -webkit-animation: my-animation 30s linear infinite;
+  animation: my-animation 30s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(0%);
+  }
+}
+
+
+
+
